@@ -1,0 +1,240 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    color: #1c1c1c;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-bottom: 1px solid #e5e5e5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #1c1c1c;
+    font-size: 14px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  /* HERO */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 1.2;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .btn-primary {
+    background-color: #ff5f2e;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .btn-secondary {
+    background-color: #5a5a5a;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .hero-image img {
+    width: 380px;
+    border-radius: 8px;
+  }
+  
+  /* QUIÉNES SOMOS */
+  .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+    background-color: #f3f3f3;
+  }
+  
+  .about-text {
+    width: 50%;
+  }
+  
+  .about-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .about-image img {
+    width: 400px;
+    border-radius: 8px;
+  }
+  
+  /* QUÉ OFRECEMOS */
+  .ofrecemos {
+    background-color: #e1e6ea;
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .ofrecemos-subtitulo {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .ofrecemos h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feature-box {
+    background-color: white;
+    padding: 40px 20px;
+    width: 160px;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .feature-box.active {
+    background-color: #ff5f2e;
+    color: white;
+  }
+  
+  /* FORMULARIO */
+  .formulario {
+    padding: 60px 40px;
+    background-color: #7c7979;
+    color: rgb(0, 0, 0);
+  }
+  
+  .formulario h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:#000000;
+  }
+  
+  .formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+  }
+  
+  .formulario input {
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+  }
+  
+  .formulario .btn-primary {
+    width: fit-content;
+    margin-top: 10px;
+  }
+  
+  .nota {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+  /* FOOTER */
+  .footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 40px;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .footer-info p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+  body {
+    padding-top: 100px; 
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  section {
+    scroll-margin-top: 85px; 
+  }
